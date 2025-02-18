@@ -93,7 +93,34 @@ wind_kph}km/h</p>
         </div>
     </div>
 </div>
-    </> : <></>
+    </> : <>
+    <img src={IsWeatherData.icon} alt=""  className='weather-icon' />
+
+{/* <p className='text'>can't find</p> */}
+
+<p className='temperature'>0 &deg;c </p>
+<p className='location'> {IsWeatherData.country}</p>
+<span className='region'>can't find</span>
+<span className='date'>Date/time: No date</span>
+
+<div className="weather-data">
+    <div className="col">
+        <img src={humidity_icon} alt="" />
+        <div>
+            <p>0 %</p>
+            <span>humidity</span>
+        </div>
+    </div>
+
+    <div className="col">
+        <img src={wind_icon} alt="" />
+        <div>
+            <p>0 km/h</p>
+            <span>wind speed</span>
+        </div>
+    </div>
+</div>
+    </>
 }
 
     </section>

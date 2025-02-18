@@ -12,3 +12,12 @@
     display: grid;
     background-color: #e2d4ff;
 }
+
+@media  screen and (min-width: 320px) {
+    .app{
+        display: block;
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+}
