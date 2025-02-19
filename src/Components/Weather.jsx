@@ -22,7 +22,8 @@ const search = async (city) => {
         return;
     }
     try {
-        const url = `http://api.weatherapi.com/v1/forecast.json?key=${import.meta.env.VITE_APP_ID}&q=${city}`;
+        const url = `http://api.weatherapi.com/v1/forecast.json?key='a5124d1f8ac246eb83765051252601'&q=${city}`;
+        // ${import.meta.env.VITE_APP_ID}
 
         const response = await fetch(url)
         const data = await response.json()
